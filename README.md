@@ -98,25 +98,11 @@ To run this project locally, follow these steps:
 10. Open your browser and visit `http://localhost:8000` to view the application.
 
 ### Authentication and Local Storage
-
+-using laravel Simple authentication with Laravel Sanctum
 - This application utilizes both database storage and local storage based on the user's authentication status.
 - When a user is logged in, todo items are stored in the database to ensure data persistence and security.
 - If a user is not logged in, todo items are stored in the local storage of the browser, providing a seamless experience without the need for authentication.
 
-### MongoDB Version
 
-If you are interested in the MongoDB version of this project, you can check out the MongoDB branch [here](https://github.com/1970Mr/todo-app-laravel/tree/mongodb).
 
-### Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/my-feature`).
-3. Make your changes and commit them (`git commit -am 'Add new feature'`).
-4. Push your changes to your forked repository (`git push origin feature/my-feature`).
-5. Create a new Pull Request.
-
-### License
-
-This project is licensed under the [MIT License](LICENSE.md). Feel free to use and modify the code as per your requirements.
